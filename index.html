@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>game</title>
+	</head>
+	<body>
+		<div class="title">
+			<h1>Ghost Runner</h1>
+		</div>
+		<div class="game1">
+			<div class="wrapper">
+				<!-- 	<div class="options">
+                        <div class="opt1 opt active">runner</div>
+                        <div class="opt2 opt">opt2</div>
+                        <div class="opt3 opt">opt3</div>
+                    </div> -->
+				<div class="slides-center">
+					<div class="over">
+						<div class="gameover"></div>
+						<br />
+						<div class="scoreDisplay"></div>
+					</div>
+
+					<div class="start">play</div>
+					<!--  onclick="start()" -->
+					<div onclick="playmusic()" class="play">
+						<svg
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								id="abc"
+								d="M5.0002 0V13.4164C4.55266 13.2724 4.08509 13.2003 3.61495 13.2028C1.62007 13.2028 0 14.6144 0 16.6092C0 18.604 1.62007 20 3.61495 20C5.60983 20 7.23989 18.5312 7.23989 16.4V7.0832H17.7603V13.4164C17.3128 13.2723 16.8452 13.2002 16.3751 13.2028C14.3802 13.2028 12.7601 14.6144 12.7601 16.6092C12.7601 18.604 14.3802 20 16.3751 20C18.3699 20 20 18.5312 20 16.4V0H5.0002ZM17.7607 5H7.24029V2.24H17.7607V5Z"
+								fill="#2EE88F"
+							/>
+						</svg>
+					</div>
+
+					<div class="score">0</div>
+					<div class="message">CLICK or SPACE to jump!</div>
+					<div class="stop">stop</div>
+					<div id="bird"></div>
+					<div id="bird2"></div>
+					<div id="char" class="idle"></div>
+					<div id="block"></div>
+				</div>
+				<div class="credits">
+					<div class="credit">
+						<p>credits</p>
+					</div>
+					<div class="names">
+						<p>background: https://edermunizz.itch.io/</p>
+						<p>bird: https://ma9ici4n.itch.io/</p>
+						<p>character: https://o-lobster.itch.io/</p>
+						<p>sound: https://pixabay.com/de/users/wataboi-12344345/</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>made by Asli 💜</p>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
